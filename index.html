@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climate Change Awareness</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 id="main-title">Climate Change: Act Now!</h1>
+        <p>Learn how you can make a difference.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>What is Climate Change?</h2>
+            <p id="climate-info">Climate change refers to long-term shifts in temperatures and weather patterns.</p>
+            <button onclick="changeContent()">Learn More</button>
+        </section>
+
+        <section>
+            <h2>Take Action</h2>
+            <button onclick="toggleTip()">Toggle Climate Tip</button>
+            <div id="climate-tip" style="display: none;">
+                <p>Tip: Reduce your carbon footprint by using public transport.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Climate Awareness Org</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
